@@ -2,7 +2,7 @@ import java.util.Date;
 import java.util.List;
 
 public class Proveedores extends InforData{
-    protected List <Proveedores> fabricantes;
+
     protected Date fecha;
     protected int cantidad;
     protected String productos;
@@ -16,13 +16,18 @@ public class Proveedores extends InforData{
 
     }
 
-    public List<Proveedores> getFabricantes() {
-        return fabricantes;
+    public Proveedores(String modelos, int precios, int codigo, int memoria, int velocidad, String definicion, int cantidad, String productos) {
+        super(cantidad,productos);
     }
 
-    public void setFabricantes(List<Proveedores> fabricantes) {
-        this.fabricantes = fabricantes;
+    public Proveedores(String nombre, String direccion, int telefono, Date fechacompra, int preciototal, int cantidad, String productos,int codigo) {
+        super(nombre,direccion,telefono,fechacompra,preciototal,cantidad,productos,codigo);
     }
+
+    public Proveedores(String motivo, String nombre, Date fechacompra, Date fechasoporte, String productos, int codigo) {
+        super(motivo,nombre,fechacompra,fechasoporte,productos,codigo);
+    }
+
 
     public Date getFecha() {
         return fecha;
@@ -50,7 +55,7 @@ public class Proveedores extends InforData{
 
     @Override
     public String toString() {
-        return "Proveedores "  +
+        return "Proveedores :"  +
                  " Fecha=" + fecha +
                 ", Cantidad=" + cantidad +
                 ", Productos='" + productos + '\'' +

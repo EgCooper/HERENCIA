@@ -2,15 +2,17 @@ import java.util.Date;
 
 public class Catalogos extends Proveedores{
     private String modelos;
-    private int precios;
+    private int precio;
     private int codigo;
      private int memoria;
      private int velocidad;
     private String definicion;
-    public Catalogos(String nombre, String direccion, int telefono, int empleados, int nit,Date fecha,int cantidad,String productos){
-        super(nombre,direccion,telefono,empleados,nit,fecha,cantidad,productos);
+    public Catalogos(String modelos,int precio,int codigo,int memoria,int velocidad,String definicion,int cantidad,String productos){
+        super(modelos,precio,codigo,memoria,velocidad,definicion,cantidad,productos);
+        this.setProductos(productos);
+        this.setCantidad(cantidad);
         this.setModelos(modelos);
-        this.setPrecios(precios);
+        this.setPrecios(precio);
         this.setCodigo(codigo);
         this.setMemoria(memoria);
         this.setVelocidad(velocidad);
@@ -18,6 +20,14 @@ public class Catalogos extends Proveedores{
 
     }
 
+    public Catalogos(String nombre, String direccion, int telefono, Date fechacompra, int preciototal, int cantidad, String productos,int codigo) {
+        super(nombre,direccion,telefono,fechacompra,preciototal,cantidad,productos,codigo);
+
+    }
+
+    public Catalogos(String motivo, String nombre, Date fechacompra, Date fechasoporte, String productos, int codigo) {
+        super(motivo,nombre,fechacompra,fechasoporte,productos,codigo);
+    }
 
 
     public String getModelos() {
@@ -29,11 +39,11 @@ public class Catalogos extends Proveedores{
     }
 
     public int getPrecios() {
-        return precios;
+        return precio;
     }
 
-    public void setPrecios(int precios) {
-        this.precios = precios;
+    public void setPrecios(int precio) {
+        this.precio = precio;
     }
 
     public int getCodigo() {
@@ -70,15 +80,14 @@ public class Catalogos extends Proveedores{
 
     @Override
     public String toString() {
-        return "Catalogos{" +
-                "modelos='" + modelos + '\'' +
-                ", precios=" + precios +
-                ", codigo=" + codigo +
-                ", memoria=" + memoria +
-                ", velocidad=" + velocidad +
-                ", definicion='" + definicion + '\'' +
-                ", cantidad=" + cantidad +
-                ", productos='" + productos + '\'' +
-                '}';
+        return "Catalogos :" +
+                " Productos=" + productos +
+                ", Cantidad='" + cantidad + '\''+
+                " Modelos='" + modelos + '\'' +
+                ", Precio=" + precio +
+                ", Codigo=" + codigo +
+                ", Memoria=" + memoria +
+                ", Velocidad=" + velocidad +
+                ", Definicion='" + definicion + '\'';
     }
 }
