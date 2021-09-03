@@ -1,6 +1,8 @@
+import interfaces.IReseteable;
+
 import java.util.Date;
 
-public class Catalogos extends Proveedores{
+public class Catalogos extends Proveedores implements IReseteable {
     private String modelos;
     private int precio;
     private int codigo;
@@ -89,5 +91,11 @@ public class Catalogos extends Proveedores{
                 ", Memoria=" + memoria +
                 ", Velocidad=" + velocidad +
                 ", Definicion='" + definicion + '\'';
+    }
+
+    @Override
+    public void reset() {
+        System.out.println(".....Reseteando Monitor.....");
+
     }
 }

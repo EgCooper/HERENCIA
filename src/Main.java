@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
 
 
-        //Polimorfismo
-    Catalogos L4150 = new Catalogos("L4150",1150,4150,2,30,"hd",1,"impresoras");
-        Catalogos impresora = (Catalogos) L4150;
-        System.out.println(impresora);
+        //IRESETEABLE
+    Catalogos Asusrog= new Catalogos("ROG24",200,2400,2,240,"1080p",1,"1");
+    Asusrog.reset();
+
 
 
 
