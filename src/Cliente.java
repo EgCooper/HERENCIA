@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Cliente extends Catalogos {
+public abstract class Cliente extends Catalogos {
      protected String nombre;
      protected String direccion;
      protected int telefono;

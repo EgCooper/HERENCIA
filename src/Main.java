@@ -4,9 +4,13 @@ public class Main {
     public static void main(String[] args) {
 
 
-        //IRESETEABLE
-    Catalogos Asusrog= new Catalogos("ROG24",200,2400,2,240,"1080p",1,"1");
-    Asusrog.reset();
+
+    Catalogos asusrog = new Catalogos("asus",200,3233,10,144,"1080p",1,"monitor") {
+    };
+        System.out.println(asusrog);
+    asusrog.reset();
+    //CLASES ABSTRACTAS
+    asusrog.estado();
 
 
 

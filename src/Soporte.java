@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Soporte extends Cliente{
+public  abstract class Soporte extends Cliente{
     private Date fechasoporte;
     private String motivo;
     public Soporte(String motivo,String nombre ,Date fechacompra,Date fechasoporte,String productos,int codigo){
@@ -41,4 +41,5 @@ public class Soporte extends Cliente{
                 ", Motivo='" + motivo + '\'' +
                 ",Codigo="+ getCodigo();
     }
+
 }

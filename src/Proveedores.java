@@ -1,7 +1,7 @@
 import java.util.Date;
 import java.util.List;
 
-public class Proveedores extends InforData{
+public abstract class Proveedores extends InforData{
 
     protected Date fecha;
     protected int cantidad;

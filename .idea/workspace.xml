@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58ed32c2-26c2-4aff-9324-897841975b79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/INFORDATA2/Catalogos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFORDATA2/Catalogos.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/INFORDATA2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFORDATA2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Catalogos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Catalogos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proveedores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proveedores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Soporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Soporte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -75,6 +76,7 @@
       <updated>1629487283977</updated>
       <workItem from="1629487285256" duration="7153000" />
       <workItem from="1630120081011" duration="297000" />
+      <workItem from="1631285814580" duration="2452000" />
     </task>
     <servers />
   </component>
@@ -86,11 +88,38 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1631288261763">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1631288261763" />
+    <state width="1322" height="232" key="GridCell.Tab.0.bottom" timestamp="1631288353396">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="232" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631288353396" />
+    <state width="1322" height="232" key="GridCell.Tab.0.center" timestamp="1631288353396">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="232" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631288353396" />
+    <state width="1322" height="232" key="GridCell.Tab.0.left" timestamp="1631288353396">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="232" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631288353396" />
+    <state width="1322" height="232" key="GridCell.Tab.0.right" timestamp="1631288353396">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="232" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631288353396" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1631285817956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1631285817956" />
   </component>
 </project>
